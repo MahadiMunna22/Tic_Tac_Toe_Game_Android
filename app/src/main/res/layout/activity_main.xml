@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="Tic Tac Toe"
+        android:textSize="40sp"
+        android:id="@+id/Player"
+        android:gravity="center_horizontal" />
+    <Button
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/Retry"
+        android:background="@drawable/ic_autorenew_black_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Btn00"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="100dp"
+            />
+        <Button
+            android:id="@+id/Btn01"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="100dp"/>
+        <Button
+            android:id="@+id/Btn02"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Btn10"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100dp"/>
+        <Button
+            android:id="@+id/Btn11"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100dp"/>
+        <Button
+            android:id="@+id/Btn12"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Btn20"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100dp"/>
+        <Button
+            android:id="@+id/Btn21"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100dp"/>
+        <Button
+            android:id="@+id/Btn22"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="100sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:textSize="100dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+</LinearLayout>
